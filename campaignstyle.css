@@ -1,0 +1,191 @@
+body{
+	font-family:Arial;
+	width:1000px;
+	margin-left:auto;
+    margin-right:auto;
+}
+.header{
+	float:left;
+	width:980px;
+	//height:40px;
+	padding:10px;
+	box-shadow:0px -1px 13px #B9AEC2;
+}
+
+.header span{
+	margin:5px;
+}
+
+.header-kanan span a{
+	font-size:14px;
+	font-weight:bold;
+	text-decoration:none;
+	color:#000;
+}
+
+.logo{
+	float:left;
+	margin-left:10px;
+}
+.header-kanan{
+	float:right;
+	margin-top:3px;
+}
+
+.konten-kiri{
+	width:250px;
+	float:left;
+	//background-color:#bbb;
+}
+.konten-kiri .judul{
+	margin:10px;
+	font-weight:bold;
+	color:#a2a2a2;
+	width:230px;
+}
+.account{
+	width:240px;
+	margin:10px;
+	float:left;
+}
+.account-gambar{
+	width:40px;
+	height:40px;
+	border:thin solid;
+	float:left;
+}
+.account-detail{
+	float:right;
+	width:190px;
+	border:thin solid;
+	margin-top:10px;
+}
+.submenu ul{
+	
+}
+.submenu li{
+	list-style-type: none;
+	width:209px;
+	//border:thin solid;
+	float:left;
+	margin-bottom:3px;
+	display:block;
+	position:relative;
+}
+.list{
+	//opacity:0;
+	margin-top:5px;
+}
+.list:hover{
+	//opacity:1;
+}
+.list .menugambar{
+	//border:thin solid;
+	float:left;
+	width:30px;
+	height:30px;
+}
+
+.list .ketgambar{
+	//border:thin solid;
+	float:left;
+	margin-top:6px;
+	margin-left:10px;
+	font-size:12pt;
+	font-weight:bold;
+}
+
+.list a{
+	color:#000;
+}
+
+.konten-kanan{
+	width:740px;
+	float:right;
+	//border:thin solid;
+}
+.kanan-header{
+	width:728px;
+	border:thin solid #e5e5e5;
+	float:left;
+	padding:5px;
+	margin: 5px 0;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    behavior: url(PIE.htc); /* remove if you don't care about IE8 */
+    width: 20px;
+    height: 20px;
+    padding: 4px;
+    background: #666;
+    color: #fff;
+    text-align: center;
+    font: 18px Arial, sans-serif;
+}
+
+
+.kanan-header table, th, td {
+    border:1px solid #d4d4d4;
+    border-collapse: collapse;
+	font-size:14px;
+}
+
+.dstgl{
+	font-size:12px;
+}
+
+.dshrg{
+	margin-left:10px;
+}
+.tabhead{
+	
+}
+
+
+.tabbod{
+	
+}
+
+.kliktowebsite{
+	float:left;width:232px;height:131px;margin-left:5px;
+	background-image:url('D:/RIMANEWS IT/ADVERT/images/clicktowebsite01.jpg');
+}
+.kliktowebsite:hover{
+	background-image:url('D:/RIMANEWS IT/ADVERT/images/clicktowebsite02.jpg');
+}
+.postreview{
+	float:left;width:232px;height:131px;margin-left:5px;
+	background-image:url('D:/RIMANEWS IT/ADVERT/images/postreview01.jpg');
+}
+.postreview:hover{
+	background-image:url('D:/RIMANEWS IT/ADVERT/images/postreview02.jpg');
+}
+.bannerads{
+	float:left;width:232px;height:131px;margin-left:5px;
+	background-image:url('D:/RIMANEWS IT/ADVERT/images/bannerads01.jpg');
+}
+
+.bannerads:hover{
+	background-image:url('D:/RIMANEWS IT/ADVERT/images/bannerads02.jpg');
+}
+
+.footer{
+	float:left;
+	height:50px;
+	width:730px;
+	padding-left:270px;
+	box-shadow:0px 1px 13px #B9AEC2;
+}
+
+.footer span{
+	float:left;
+	margin-top:15px;
+	margin-left:20px;
+	
+}
+.footer span a{
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+}
